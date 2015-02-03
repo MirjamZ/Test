@@ -5,5 +5,5 @@ public class Test {
 	if (args.length >0) {
 	name = args[0];
 	}
-	System.out.printf("Hello %S\n",name);
+	System.out.println("Hello %S\n" + name + ", how are you?");
 	}
